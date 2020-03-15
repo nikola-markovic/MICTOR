@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct TabView: View {
+struct MainTabView: View {
     var body: some View {
         TabView {
             EquipmentView()
@@ -25,6 +25,6 @@ struct TabView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        TabView()
+        MainTabView()
     }
 }
