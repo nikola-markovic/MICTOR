@@ -10,7 +10,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        TabView {
+            EquipmentView()
+                .tabItem {
+                    Image("equipment-selected")
+            }
+            CurrenciesCollectionView()
+                .tabItem {
+                    Image("currencies-selected")
+            }
+        }
     }
 }
 

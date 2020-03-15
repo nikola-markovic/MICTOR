@@ -16,6 +16,8 @@
 		930D43AC241EE18400F18960 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930D43A9241EE18400F18960 /* Colors.xcassets */; };
 		930D43AD241EE18400F18960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930D43AA241EE18400F18960 /* Assets.xcassets */; };
 		930D43AE241EE18400F18960 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 930D43AB241EE18400F18960 /* Fonts */; };
+		930D43B0241EE9B600F18960 /* CurrenciesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D43AF241EE9B600F18960 /* CurrenciesCollectionView.swift */; };
+		930D43B2241EEA3000F18960 /* EquipmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D43B1241EEA3000F18960 /* EquipmentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		930D43A9241EE18400F18960 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		930D43AA241EE18400F18960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		930D43AB241EE18400F18960 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		930D43AF241EE9B600F18960 /* CurrenciesCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesCollectionView.swift; sourceTree = "<group>"; };
+		930D43B1241EEA3000F18960 /* EquipmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				930D4387241EDF6600F18960 /* AppDelegate.swift */,
 				930D4389241EDF6600F18960 /* SceneDelegate.swift */,
 				930D438B241EDF6600F18960 /* ContentView.swift */,
+				930D43B1241EEA3000F18960 /* EquipmentView.swift */,
+				930D43AF241EE9B600F18960 /* CurrenciesCollectionView.swift */,
 				930D4392241EDF6700F18960 /* LaunchScreen.storyboard */,
 				930D4395241EDF6700F18960 /* Info.plist */,
 				930D43AA241EE18400F18960 /* Assets.xcassets */,
@@ -217,8 +223,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				930D4388241EDF6600F18960 /* AppDelegate.swift in Sources */,
+				930D43B2241EEA3000F18960 /* EquipmentView.swift in Sources */,
 				930D438A241EDF6600F18960 /* SceneDelegate.swift in Sources */,
 				930D438C241EDF6600F18960 /* ContentView.swift in Sources */,
+				930D43B0241EE9B600F18960 /* CurrenciesCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
