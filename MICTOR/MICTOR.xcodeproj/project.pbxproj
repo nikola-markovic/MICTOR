@@ -10,10 +10,12 @@
 		930D4388241EDF6600F18960 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D4387241EDF6600F18960 /* AppDelegate.swift */; };
 		930D438A241EDF6600F18960 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D4389241EDF6600F18960 /* SceneDelegate.swift */; };
 		930D438C241EDF6600F18960 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D438B241EDF6600F18960 /* ContentView.swift */; };
-		930D438E241EDF6700F18960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930D438D241EDF6700F18960 /* Assets.xcassets */; };
 		930D4391241EDF6700F18960 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930D4390241EDF6700F18960 /* Preview Assets.xcassets */; };
 		930D4394241EDF6700F18960 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 930D4392241EDF6700F18960 /* LaunchScreen.storyboard */; };
 		930D439F241EDF6700F18960 /* MICTORTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930D439E241EDF6700F18960 /* MICTORTests.swift */; };
+		930D43AC241EE18400F18960 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930D43A9241EE18400F18960 /* Colors.xcassets */; };
+		930D43AD241EE18400F18960 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930D43AA241EE18400F18960 /* Assets.xcassets */; };
+		930D43AE241EE18400F18960 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 930D43AB241EE18400F18960 /* Fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +33,15 @@
 		930D4387241EDF6600F18960 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		930D4389241EDF6600F18960 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		930D438B241EDF6600F18960 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		930D438D241EDF6700F18960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		930D4390241EDF6700F18960 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		930D4393241EDF6700F18960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		930D4395241EDF6700F18960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		930D439A241EDF6700F18960 /* MICTORTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MICTORTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		930D439E241EDF6700F18960 /* MICTORTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MICTORTests.swift; sourceTree = "<group>"; };
 		930D43A0241EDF6700F18960 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		930D43A9241EE18400F18960 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		930D43AA241EE18400F18960 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		930D43AB241EE18400F18960 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +86,11 @@
 				930D4387241EDF6600F18960 /* AppDelegate.swift */,
 				930D4389241EDF6600F18960 /* SceneDelegate.swift */,
 				930D438B241EDF6600F18960 /* ContentView.swift */,
-				930D438D241EDF6700F18960 /* Assets.xcassets */,
 				930D4392241EDF6700F18960 /* LaunchScreen.storyboard */,
 				930D4395241EDF6700F18960 /* Info.plist */,
+				930D43AA241EE18400F18960 /* Assets.xcassets */,
+				930D43A9241EE18400F18960 /* Colors.xcassets */,
+				930D43AB241EE18400F18960 /* Fonts */,
 				930D438F241EDF6700F18960 /* Preview Content */,
 			);
 			path = MICTOR;
@@ -188,9 +194,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930D43AE241EE18400F18960 /* Fonts in Resources */,
+				930D43AC241EE18400F18960 /* Colors.xcassets in Resources */,
 				930D4394241EDF6700F18960 /* LaunchScreen.storyboard in Resources */,
+				930D43AD241EE18400F18960 /* Assets.xcassets in Resources */,
 				930D4391241EDF6700F18960 /* Preview Assets.xcassets in Resources */,
-				930D438E241EDF6700F18960 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
